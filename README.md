@@ -34,7 +34,7 @@ export async function getBuoy(buoyID: string): Promise<BuoyData> {
 
 There are plans to make it [easy](https://github.com/derekdowling/buoy-kit/issues/3) to find the closest buoy(s) to a nearby location. In the mean time, you can explore the world-wide buoy map on the [NDBC](https://www.ndbc.noaa.gov/) site and clicking on one of the squares. The number of the "Station" is the Buoy ID you would use. 
 
-### On The Server (Node.js)
+## On The Server (Node.js)
 
 This library uses the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to manage
 HTTP requests. You'll want to import [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) if
