@@ -1,9 +1,9 @@
 # Buoy Kit 🌊 🏄 🤙 
 
-Fetch data about buoys in the ocean using JavaScript (or TypeScript) using NOAA data sources.
+Fetch data about buoys in the ocean with JavaScript (or TypeScript) using NOAA data sources.
 
 - Wave information via [NDBC APIs](https://www.ndbc.noaa.gov/docs/ndbc_web_data_guide.pdf).
-- (coming soon) Tide information via [NOAA Tide API](https://tidesandcurrents.noaa.gov/api/)
+- ([coming soon](https://github.com/derekdowling/buoy-kit/issues/2)) Tide information via [NOAA Tide API](https://tidesandcurrents.noaa.gov/api/)
 - TypeScript support
 
 ```sh
@@ -30,7 +30,7 @@ export function getBuoy(buoyID: string): BuoyData {
 }
 ```
 
-### On The Server
+### On The Server (Node.js)
 
 This library uses the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to manage
 HTTP requests. You'll want to import [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) if
