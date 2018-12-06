@@ -1,0 +1,28 @@
+{
+  "name": "buoy-kit",
+  "version": "0.1.0",
+  "description": "Fetch buoy and tide information from government NDBC data using JavaScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "github.com/derekdowling/buoy-kit",
+  "author": "Derek Dowling",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rm -rf dist",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/jest": "^23.3.10",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "typescript": "^3.2.1"
+  }
+}
