@@ -1,6 +1,6 @@
 {
   "name": "buoy-kit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Fetch buoy and tide information from government NDBC data using JavaScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
