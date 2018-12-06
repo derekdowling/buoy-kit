@@ -8,7 +8,7 @@
   "author": "Derek Dowling",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
     "prepublishOnly": "yarn prettier && yarn test && yarn clean && yarn build",
     "prettier": "prettier -l \"src/**/*.{ts,json,js}\"",
