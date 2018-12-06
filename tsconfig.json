@@ -8,7 +8,6 @@
     "jsx": "preserve",
     "lib": [
       "dom",
-      "dom.iterable",
       "scripthost",
       "es2015",
       "es2016.array.include",
@@ -20,10 +19,10 @@
     "noUnusedParameters": true,
     "outDir": "dist",
     "resolveJsonModule": true,
+    "rootDir": "./src",
     "skipLibCheck": false,
     "strict": true,
+    "sourceMap": true,
     "target": "esnext"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.test.ts"]
+  }
 }

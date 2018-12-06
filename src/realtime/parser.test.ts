@@ -72,7 +72,7 @@ Object {
       expect(result.measurements[0].minute).toEqual(0);
       expect(result).toMatchInlineSnapshot(`
 Object {
-  "buoyID": "1234",
+  "id": "1234",
   "measurements": Array [
     Object {
       "airTemperature": NaN,

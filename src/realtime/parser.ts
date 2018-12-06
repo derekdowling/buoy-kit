@@ -81,7 +81,9 @@ export function getFieldOrderList(rawFieldOrder: string): RawRealtimeField[] {
       case RawRealtimeField.WVHT:
         return RawRealtimeField.WVHT;
       default: {
-        console.error(`Encountered unexpected NDBC real-time data field: ${field}`);
+        console.error(
+          `Encountered unexpected NDBC real-time data field: ${field}`,
+        );
         return RawRealtimeField.UNKNOWN;
       }
     }
