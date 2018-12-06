@@ -7,6 +7,9 @@
   "repository": "github.com/derekdowling/buoy-kit",
   "author": "Derek Dowling",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
