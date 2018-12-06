@@ -17,11 +17,11 @@ yarn add buoy-kit
 ```
 import { fetchBuoyRealTimeData, BuoyData } from 'buoy-kit';
 
-export function getBuoy(buoyID: string): BuoyData {
+export async function getBuoy(buoyID: string): BuoyData {
   let buoyData: BuoyData;
   
   try {
-    buoyData = fetchBuoyRealTimeData(buoyID: string);
+    buoyData = await fetchBuoyRealTimeData(buoyID: string);
   } catch (e) {
     console.log(e);
   }
