@@ -17,7 +17,7 @@ yarn add buoy-kit
 ```
 import { fetchBuoyRealTimeData, BuoyData } from 'buoy-kit';
 
-export async function getBuoy(buoyID: string): BuoyData {
+export async function getBuoy(buoyID: string): Promise<BuoyData> {
   let buoyData: BuoyData;
   
   try {
@@ -29,6 +29,10 @@ export async function getBuoy(buoyID: string): BuoyData {
   return buoyData;
 }
 ```
+
+## Finding A Buoy
+
+There are plans to make it [easy](https://github.com/derekdowling/buoy-kit/issues/3) to find the closest buoy(s) to a nearby location. In the mean time, you can explore the world-wide buoy map on the [NDBC](https://www.ndbc.noaa.gov/) site and clicking on one of the squares. The number of the "Station" is the Buoy ID you would use. 
 
 ### On The Server (Node.js)
 
